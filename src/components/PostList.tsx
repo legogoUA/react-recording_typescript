@@ -15,6 +15,8 @@ export const PostList: React.FC<Props> = React.memo((({
   onDelete = () => {}, 
   onSelect = () => {},
 }) => {
+  console.log('rendering PostList');
+  
   return (
     <table className="table is-striped is-narrow box">
       <thead>

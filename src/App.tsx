@@ -15,6 +15,7 @@ export const App: React.FC = () => {
     setQuery(event.target.value);
   };
   // #endregion
+  
   // #region posts
   const [posts, setPosts] = useState<Post[]>(getPreparedPosts());
 
